@@ -8,4 +8,4 @@ def is_prime(n):
 
 numbers = [12, -45, 67, -34, 89, -100, 23, -5, 34]
 prime_numbers = [num for num in numbers if is_prime(num)]
-print("Простые числа в массиве:", prime_numbers)
+print("Простые числа:", prime_numbers)
